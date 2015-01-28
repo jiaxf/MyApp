@@ -1,0 +1,25 @@
+{
+	"name": "MyApp",
+	"version": "0.0.1",
+	"main": [
+		"components/node-webkit-app/src/utils/UpdateChecker.js",
+		"components/node-webkit-app/src/utils/Browser.js",
+		"components/node-webkit-app/src/NodeWebkitApp.js",
+		"src/myapp/MyApp.js",
+		"src/myapp/MyApp.less"
+	],
+	"libraries": [
+		"components/jquery/dist/jquery.min.js",
+		"components/bootstrap/dist/js/bootstrap.min.js",
+		"components/bootstrap/less/bootstrap.less",
+		"components/bootstrap/less/theme.less",
+		"components/cloudkid-namespace/dist/namespace.min.js"
+	],
+	"librariesDebug": [
+		"components/jquery/dist/jquery.js",
+		"components/bootstrap/dist/js/bootstrap.js",
+		"components/bootstrap/less/bootstrap.less",
+		"components/bootstrap/less/theme.less",
+		"components/cloudkid-namespace/dist/namespace.js"
+	]
+}
